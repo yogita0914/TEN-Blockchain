@@ -87,28 +87,26 @@ export function AboutUs() {
           <div className='grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8'>
             {[
               {
+                name: "Ten News",
+                description:
+                  "Welcome to TEN News, your go-to source for the latest and most reliable news from around the world.",
+              },
+              {
+                name: "Ten Actors",
+                description:
+                  "A well-designed actor's website can also help streamline referrals, making it easier for potential collaborators or industry contacts to refer the actor for suitable roles or opportunities.",
+              },
+              {
                 name: "Ten Academy",
                 description:
-                  "Innovative courses and expert-led training programs.",
+                  "We develop and implement strategies to foster a deep connection between our content and our viewers.",
               },
               {
-                name: "Ten Mentor",
-                description: "Guidance from industry experts and mentors.",
+                name: "Ten Marketing",
+                description: "some of our intiatives in media industry.",
               },
-              {
-                name: "Ten Book Engine",
-                description:
-                  "A vast library of digital resources and textbooks.",
-              },
-              {
-                name: "Ten Virtual Campus",
-                description: "An immersive virtual campus environment.",
-              },
-              {
-                name: "Ten Virtual University",
-                description: "Accredited degrees and certifications online.",
-              },
-              { name: "Ten media", description: "Media platforms." },
+
+              // { name: "Ten media", description: "Media platforms." },
             ].map((item, index) => (
               <motion.div
                 key={item.name}
