@@ -7,6 +7,7 @@ export function Hero3({ featureCardRef }) {
     const elementPosition = featureCardRef.current.getBoundingClientRect().top;
     const offsetPosition = elementPosition + window.pageYOffset - offset;
 
+    
     window.scrollTo({
       top: offsetPosition,
       behavior: "smooth",

@@ -10,6 +10,7 @@ export function Navbar({ menuItems = [] }) {
   const tenMentor = menuItems.find((item) => item.title === "Ten Mentor");
   const dropdownItems = menuItems.filter((item) => item.title !== "Ten Mentor");
 
+  
   return (
     <nav className='bg-white shadow-lg sticky top-0 z-50'>
       <div className='max-w-7xl mx-auto px-4 sm:px-6 lg:px-32'>

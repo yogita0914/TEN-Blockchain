@@ -1,6 +1,7 @@
 import React from "react";
 import { motion } from "framer-motion";
 
+
 export function Footer({ menuItems = [] }) {
   return (
     <footer className='bg-gray-800 text-white mt-0'>
