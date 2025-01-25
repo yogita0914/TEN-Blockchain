@@ -21,7 +21,7 @@ export function Hero3({ featureCardRef }) {
           transition={{ duration: 0.5 }}
         >
           <h2 className='text-3xl font-bold text-gray-900 mb-4'>
-            Ready to Start Your Learning Journey?
+            Ready to Start Your media Journey?
           </h2>
           <p className='text-xl text-green-700 mb-8'>
             Join thousands of users already enrolled with Ten Media
