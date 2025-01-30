@@ -23,11 +23,11 @@ export const menuItems = [
     url: "https://ten-actors.vercel.app/",
   },
   {
-    title: "Ten Academy",
+    title: "Ten Media Academy",
     icon: <Users className='w-5 h-5' />,
     description:
       "We develop and implement strategies to foster a deep connection between our content and our viewers. Our approach encourages active participation, feedback, and community building, ensuring a loyal and engaged audience.",
-    url: "",
+    url: "https://chat.whatsapp.com/BCniBdAD8W7K5ZyWZMVvfx",
   },
   {
     title: "Ten Marketing",
