@@ -16,7 +16,7 @@ export function FeatureCard({ item, index }) {
           whileHover={{ x: 5 }}
         >
           <motion.div 
-            className="p-2 bg-green-100 rounded-lg"
+            className="p-2 bg-blue-100 rounded-lg"
             whileHover={{ rotate: 360 }}
             transition={{ duration: 0.5 }}
           >
@@ -26,7 +26,7 @@ export function FeatureCard({ item, index }) {
         </motion.div>
         <p className="mt-4 text-gray-600">{item.description}</p>
         <motion.button 
-          className="mt-4 w-full bg-green-600 text-white py-2 px-4 rounded-md hover:bg-green-700 transition-colors duration-300"
+          className="mt-4 w-full bg-blue-600 text-white py-2 px-4 rounded-md hover:bg-blue-700 transition-colors duration-300"
           whileHover={{ scale: 1.02 }}
           whileTap={{ scale: 0.98 }}
           onClick={() => window.open(item.url, '_blank')} 
