@@ -22,7 +22,7 @@ export function Navbar({ menuItems = [] }) {
             animate={{ opacity: 1, x: 0 }}
             transition={{ duration: 0.5 }}
           >
-            <BookOpen className='h-10 w-10 text-green-600' />
+            <BookOpen className='h-10 w-10 text-blue-600' />
             <div>
               <a href='/' className='text-2xl font-bold text-gray-900'>
                 Ten Media
