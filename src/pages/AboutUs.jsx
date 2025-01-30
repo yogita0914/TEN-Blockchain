@@ -3,7 +3,7 @@ import { motion } from "framer-motion";
 export function AboutUs() {
   return (
     <div className='min-h-screen bg-gradient-to-b from-gray-30 to-white'>
-      <section className='relative py-16 bg-gradient-to-b from-green-300 to-green-200'>
+      <section className='relative py-16 bg-gradient-to-b from-blue-300 to-blue-200'>
         <div className='max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center'>
           <motion.div
             initial={{ opacity: 0, y: -20 }}
@@ -13,7 +13,7 @@ export function AboutUs() {
             <h1 className='text-4xl font-bold text-gray-900 mb-4'>
               About Ten Media
             </h1>
-            <p className='text-lg text-green-700'>
+            <p className='text-lg text-blue-700'>
               Powered by{" "}
               <span className='font-bold'>The Entrepreneurship Network</span>,
               At Ten Media, we are dedicated to revolutionizing the media
@@ -55,7 +55,7 @@ export function AboutUs() {
               <h2 className='text-3xl font-bold text-gray-900 mb-4'>
                 Our Vision
               </h2>
-              <p className='text-lg text-green-800 mb-6'>
+              <p className='text-lg text-blue-800 mb-6'>
                 We envision a world where media is not just consumed but
                 experienced in new and exciting ways. By leveraging the latest
                 in digital technology, we strive to create immersive and
@@ -65,7 +65,7 @@ export function AboutUs() {
           </motion.div>
         </div>
       </section>
-      <section className='py-16 bg-gradient-to-r from-green-100 to-green-50'>
+      <section className='py-16 bg-gradient-to-r from-blue-100 to-blue-50'>
         <div className='max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center'>
           <motion.div
             initial={{ opacity: 0, y: 20 }}
@@ -110,9 +110,9 @@ export function AboutUs() {
               <motion.div
                 key={item.name}
                 whileHover={{ scale: 1.05 }}
-                className='bg-green-100 rounded-lg p-6 text-center shadow-lg'
+                className='bg-blue-100 rounded-lg p-6 text-center shadow-lg'
               >
-                <h3 className='text-xl font-bold text-green-800 mb-2'>
+                <h3 className='text-xl font-bold text-blue-800 mb-2'>
                   {item.name}
                 </h3>
                 <p className='text-gray-700'>{item.description}</p>
@@ -122,7 +122,7 @@ export function AboutUs() {
         </div>
       </section>
 
-      <section className='py-16 bg-gradient-to-r from-green-100 to-green-30'>
+      <section className='py-16 bg-gradient-to-r from-blue-100 to-blue-30'>
         <div className='max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center'>
           <motion.div
             initial={{ opacity: 0, y: 20 }}
@@ -138,7 +138,7 @@ export function AboutUs() {
             <motion.button
               whileHover={{ scale: 1.05 }}
               whileTap={{ scale: 0.95 }}
-              className='bg-white text-green-600 px-8 py-3 rounded-full font-semibold text-lg hover:bg-green-200 transition-colors duration-300'
+              className='bg-white text-blue-600 px-8 py-3 rounded-full font-semibold text-lg hover:bg-blue-200 transition-colors duration-300'
             >
               <a href='/'>Learn More</a>
             </motion.button>
