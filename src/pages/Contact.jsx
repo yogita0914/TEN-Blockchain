@@ -29,7 +29,7 @@ export default function Contact() {
 
   return (
     <div className="min-h-screen bg-gradient-to-b from-gray-50 to-white">
-      <section className="relative py-16 bg-gradient-to-r from-green-300 to-green-200">
+      <section className="relative py-16 bg-gradient-to-r from-blue-300 to-blue-200">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
           <motion.div
             initial={{ opacity: 0, y: -20 }}
@@ -39,7 +39,7 @@ export default function Contact() {
             <h1 className="text-4xl font-bold text-gray-900 mb-4">
               Contact Us
             </h1>
-            <p className="text-lg text-green-700">
+            <p className="text-lg text-blue-700">
               Get in touch with us for any inquiries or support.
             </p>
           </motion.div>
@@ -69,32 +69,32 @@ export default function Contact() {
                     name="name"
                     required
                     placeholder="Your Name"
-                    className="w-full p-4 rounded-lg border border-gray-300 focus:ring-2 focus:ring-green-500"
+                    className="w-full p-4 rounded-lg border border-gray-300 focus:ring-2 focus:ring-blue-500"
                   />
                   <input
                     type="email"
                     name="email"
                     required
                     placeholder="Your Email"
-                    className="w-full p-4 rounded-lg border border-gray-300 focus:ring-2 focus:ring-green-500"
+                    className="w-full p-4 rounded-lg border border-gray-300 focus:ring-2 focus:ring-blue-500"
                   />
                   <textarea
                     name="message"
                     required
                     placeholder="Your Message"
-                    className="w-full p-4 rounded-lg border border-gray-300 focus:ring-2 focus:ring-green-500"
+                    className="w-full p-4 rounded-lg border border-gray-300 focus:ring-2 focus:ring-blue-500"
                   ></textarea>
                 </div>
                 <motion.button
                   whileHover={{ scale: 1.05 }}
                   whileTap={{ scale: 0.95 }}
                   type="submit"
-                  className="bg-green-600 text-white px-8 py-3 rounded-full font-semibold text-lg hover:bg-green-700 transition-colors duration-300"
+                  className="bg-blue-600 text-white px-8 py-3 rounded-full font-semibold text-lg hover:bg-blue-700 transition-colors duration-300"
                 >
                   Submit Form
                 </motion.button>
               </form>
-              <span className="block mt-4 text-green-700">{result}</span>
+              <span className="block mt-4 text-blue-700">{result}</span>
             </motion.div>
 
     
@@ -112,7 +112,7 @@ export default function Contact() {
         </div>
       </section>
 
-      <section className="py-16 bg-gradient-to-r from-green-100 to-green-50">
+      <section className="py-16 bg-gradient-to-r from-blue-100 to-blue-50">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
           <motion.div
             initial={{ opacity: 0, y: 20 }}
@@ -131,7 +131,7 @@ export default function Contact() {
               whileHover={{ scale: 1.05 }}
               className="bg-white rounded-lg shadow-lg p-6 text-center border border-gray-200"
             >
-              <h3 className="text-xl font-bold text-green-800 mb-4">Email Us</h3>
+              <h3 className="text-xl font-bold text-blue-800 mb-4">Email Us</h3>
               <p className="text-gray-700">info@entrepreneurshipnetwork.net</p>
             </motion.div>
 
@@ -139,7 +139,7 @@ export default function Contact() {
               whileHover={{ scale: 1.05 }}
               className="bg-white rounded-lg shadow-lg p-6 text-center border border-gray-200"
             >
-              <h3 className="text-xl font-bold text-green-800 mb-4">Company Name</h3>
+              <h3 className="text-xl font-bold text-blue-800 mb-4">Company Name</h3>
               <p className="text-gray-700">TEN (The Entrepreneurship Network)</p>
             </motion.div>
 
@@ -147,7 +147,7 @@ export default function Contact() {
               whileHover={{ scale: 1.05 }}
               className="bg-white rounded-lg shadow-lg p-6 text-center border border-gray-200"
             >
-              <h3 className="text-xl font-bold text-green-800 mb-4">Visit Us</h3>
+              <h3 className="text-xl font-bold text-blue-800 mb-4">Visit Us</h3>
               <p className="text-gray-700">India accelerator Noida 201301 UP, India</p>
             </motion.div>
           </div>
