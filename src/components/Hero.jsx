@@ -1,16 +1,15 @@
-import React from 'react';
-import { motion } from 'framer-motion';
+import React from "react";
+import { motion } from "framer-motion";
 
 export function Hero({ featureCardRef }) {
-
   const scrollToHero2 = () => {
-    const offset = 80; 
+    const offset = 80;
     const elementPosition = featureCardRef.current.getBoundingClientRect().top;
     const offsetPosition = elementPosition + window.pageYOffset - offset;
-    
+
     window.scrollTo({
       top: offsetPosition,
-      behavior: 'smooth'
+      behavior: "smooth",
     });
   };
 
@@ -23,7 +22,8 @@ export function Hero({ featureCardRef }) {
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.5 }}
         >
-          Welcome to Ten Media
+          Welcome to TEN <br />
+          Blockchain and Cryptocurrency
         </motion.h1>
         <motion.p
           className="text-xl mt-6 max-w-3xl mx-auto"
@@ -31,15 +31,29 @@ export function Hero({ featureCardRef }) {
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.5 }}
         >
-          Discover a serene media environment designed to help you focus and achieve your goals.
+          Blockchain is a decentralized digital ledger that records transactions
+          across many computers, making data secure, transparent, and
+          tamper-proof. It removes the need for central authorities and enables
+          peer-to-peer trust.
+        </motion.p>
+        <motion.p
+          className="text-lg mt-4 max-w-2xl mx-auto text-gray-600"
+          initial={{ opacity: 0, y: 20 }}
+          animate={{ opacity: 1, y: 0 }}
+          transition={{ duration: 0.6 }}
+        >
+          Cryptocurrency is a digital form of money built on blockchain
+          technology. It allows secure, borderless transactions, and is often
+          used for trading, investments, and powering decentralized
+          applications.
         </motion.p>
         <motion.button
           className="mt-10 bg-blue-600 text-white px-6 py-3 rounded-full font-semibold text-lg shadow-md hover:bg-blue-700 transition-colors duration-300"
           whileHover={{ scale: 1.05 }}
           whileTap={{ scale: 0.95 }}
-          onClick={scrollToHero2} 
+          onClick={scrollToHero2}
         >
-          Get Started
+          Learn More
         </motion.button>
       </div>
     </header>

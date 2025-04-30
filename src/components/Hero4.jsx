@@ -1,5 +1,5 @@
-import React from 'react';
-import { motion } from 'framer-motion';
+import React from "react";
+import { motion } from "framer-motion";
 
 export function Hero4() {
   return (
@@ -12,7 +12,9 @@ export function Hero4() {
           className="bg-white rounded-2xl shadow-xl p-8 md:p-12"
         >
           <div className="text-center mb-8">
-            <h2 className="text-3xl font-bold text-gray-900">What Our users Say</h2>
+            <h2 className="text-3xl font-bold text-gray-900">
+              What Our users Say
+            </h2>
           </div>
           <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
             <motion.div
@@ -20,7 +22,7 @@ export function Hero4() {
               className="bg-blue-50 p-6 rounded-lg"
             >
               <p className="text-gray-600 italic mb-4">
-              "Ten Media transformed my watching experience."
+                "Your System are change my fitness experience."
               </p>
               <p className="font-semibold text-gray-900">- Himanshu</p>
               <p className="text-gray-500">React.js Developer</p>
@@ -30,7 +32,11 @@ export function Hero4() {
               className="bg-blue-50 p-6 rounded-lg"
             >
               <p className="text-gray-600 italic mb-4">
-                "The Ten Book Engine and Virtual University platforms provided me with all the resources I needed to excel in my studies."
+                "FitVerse has been a game-changer for me, offering a unique way
+                to track my fitness journey while rewarding my progress. The
+                integration of blockchain and cryptocurrency adds a layer of
+                security and value, making each step towards better health even
+                more rewarding."
               </p>
               <p className="font-semibold text-gray-900">- Mounika</p>
               <p className="text-gray-500"> Mern Stack Developer</p>
