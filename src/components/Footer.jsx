@@ -3,7 +3,7 @@ import { motion } from "framer-motion";
 
 export function Footer({ menuItems = [] }) {
   return (
-    <footer className="bg-gray-800 text-white mt-0">
+    <footer className="bg-purple-900 text-white mt-0">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-8">
         <motion.div
           className="grid grid-cols-1 md:grid-cols-3 gap-8"
@@ -15,7 +15,7 @@ export function Footer({ menuItems = [] }) {
             <h4 className="text-lg font-semibold mb-4">
               About Blockchain & Cryptocurrency
             </h4>
-            <p className="text-gray-400">
+            <p className="text-gray-300">
               Blockchain is a secure, decentralized technology behind
               cryptocurrencies, enabling transparent and tamper-proof
               transactions.
@@ -34,7 +34,7 @@ export function Footer({ menuItems = [] }) {
                   <a
                     href={item.url}
                     target="_blank"
-                    className="text-gray-400 hover:text-white transition-colors duration-200"
+                    className="text-gray-300 hover:text-purple-400 transition-colors duration-200"
                   >
                     {item.title}
                   </a>
@@ -45,7 +45,7 @@ export function Footer({ menuItems = [] }) {
           <div>
             <h4 className="text-lg font-semibold mb-4">Contact</h4>
             <motion.div
-              className="text-gray-400 space-y-2"
+              className="text-gray-300 space-y-2"
               initial={{ opacity: 0, x: 20 }}
               animate={{ opacity: 1, x: 0 }}
               transition={{ duration: 0.5 }}
@@ -54,19 +54,19 @@ export function Footer({ menuItems = [] }) {
               <div className="mt-4 flex space-x-4">
                 <a
                   href="#"
-                  className="hover:text-blue-400 transition-colors duration-200"
+                  className="hover:text-purple-400 transition-colors duration-200"
                 >
                   Twitter
                 </a>
                 <a
                   href="https://www.linkedin.com/company/the-entrepreneurship-network/"
-                  className="hover:text-blue-400 transition-colors duration-200"
+                  className="hover:text-purple-400 transition-colors duration-200"
                 >
                   LinkedIn
                 </a>
                 <a
                   href="#"
-                  className="hover:text-blue-400 transition-colors duration-200"
+                  className="hover:text-purple-400 transition-colors duration-200"
                 >
                   Facebook
                 </a>
@@ -76,13 +76,13 @@ export function Footer({ menuItems = [] }) {
         </motion.div>
 
         <motion.div
-          className="mt-8 pt-8 border-t border-gray-700 text-center text-gray-400"
+          className="mt-8 pt-8 border-t border-purple-800 text-center text-gray-300"
           initial={{ opacity: 0 }}
           animate={{ opacity: 1 }}
           transition={{ duration: 0.5, delay: 0.5 }}
         >
           <p>
-            &copy; {new Date().getFullYear()} Blockchain & Cryptocurrency . All
+            &copy; {new Date().getFullYear()} Blockchain & Cryptocurrency. All
             rights reserved.
           </p>
         </motion.div>

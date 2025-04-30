@@ -47,7 +47,7 @@ export function Navbar({ menuItems = [] }) {
           <div className="hidden sm:flex sm:items-center sm:space-x-6">
             <Link
               to="/about"
-              className="text-sm font-medium text-gray-700 hover:text-blue-600 "
+              className="text-sm font-medium text-gray-700 hover:text-purple-600 "
               initial={{ opacity: 0, y: -20 }}
               animate={{ opacity: 1, y: 0 }}
               transition={{ duration: 0.5 }}
@@ -57,7 +57,7 @@ export function Navbar({ menuItems = [] }) {
             </Link>
             <Link
               to="/contact"
-              className="text-sm font-medium text-gray-700 hover:text-blue-600 "
+              className="text-sm font-medium text-gray-700 hover:text-purple-600 "
               initial={{ opacity: 0, y: -20 }}
               animate={{ opacity: 1, y: 0 }}
               transition={{ duration: 0.5 }}
@@ -70,7 +70,7 @@ export function Navbar({ menuItems = [] }) {
                 to={tenMentor.url}
                 target="_blank"
                 rel="noopener noreferrer"
-                className="text-sm font-medium text-gray-700 hover:text-blue-600 "
+                className="text-sm font-medium text-gray-700 hover:text-purple-600 "
                 initial={{ opacity: 0, y: -20 }}
                 animate={{ opacity: 1, y: 0 }}
                 transition={{ duration: 0.5 }}
@@ -96,13 +96,13 @@ export function Navbar({ menuItems = [] }) {
         <div className="pt-4 pb-4 space-y-2">
           <Link
             to="/about"
-            className="block px-4 py-2 text-base font-medium text-gray-700 hover:text-blue-600 hover:bg-gray-50"
+            className="block px-4 py-2 text-base font-medium text-gray-700 hover:text-purple-600 hover:bg-gray-50"
           >
             About
           </Link>
           <Link
             to="/contact"
-            className="block px-4 py-2 text-base font-medium text-gray-700 hover:text-blue-600 hover:bg-gray-50"
+            className="block px-4 py-2 text-base font-medium text-gray-700 hover:text-purple-600 hover:bg-gray-50"
           >
             Contact
           </Link>
@@ -111,7 +111,7 @@ export function Navbar({ menuItems = [] }) {
               to={tenMentor.url}
               target="_blank"
               rel="noopener noreferrer"
-              className="block px-4 py-2 text-base font-medium text-gray-700 hover:text-blue-600 hover:bg-gray-50"
+              className="block px-4 py-2 text-base font-medium text-gray-700 hover:text-purple-600 hover:bg-gray-50"
             >
               Ten Mentor
             </Link>

@@ -13,33 +13,29 @@ export function Hero4() {
         >
           <div className="text-center mb-8">
             <h2 className="text-3xl font-bold text-gray-900">
-              What Our users Say
+              What Our Users Say
             </h2>
           </div>
           <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
             <motion.div
-              whileHover={{ scale: 1.02 }}
-              className="bg-blue-50 p-6 rounded-lg"
+              whileHover={{ scale: 1.03, boxShadow: "0 10px 25px rgba(128, 90, 213, 0.15)" }}
+              className="bg-purple-50 p-6 rounded-lg transition-transform duration-300"
             >
-              <p className="text-gray-600 italic mb-4">
-                "Your System are change my fitness experience."
+              <p className="text-gray-700 italic mb-4">
+                "Your system has transformed my blockchain learning experience. Simple, secure, and empowering."
               </p>
-              <p className="font-semibold text-gray-900">- Himanshu</p>
-              <p className="text-gray-500">React.js Developer</p>
+              <p className="font-semibold text-purple-600">- Himanshu</p>
+              <p className="text-purple-500">React.js Developer</p>
             </motion.div>
             <motion.div
-              whileHover={{ scale: 1.02 }}
-              className="bg-blue-50 p-6 rounded-lg"
+              whileHover={{ scale: 1.03, boxShadow: "0 10px 25px rgba(128, 90, 213, 0.15)" }}
+              className="bg-purple-50 p-6 rounded-lg transition-transform duration-300"
             >
-              <p className="text-gray-600 italic mb-4">
-                "FitVerse has been a game-changer for me, offering a unique way
-                to track my fitness journey while rewarding my progress. The
-                integration of blockchain and cryptocurrency adds a layer of
-                security and value, making each step towards better health even
-                more rewarding."
+              <p className="text-gray-700 italic mb-4">
+                "TEN has been a game-changer for me. The seamless blend of blockchain, security, and real-world application made every interaction rewarding."
               </p>
-              <p className="font-semibold text-gray-900">- Mounika</p>
-              <p className="text-gray-500"> Mern Stack Developer</p>
+              <p className="font-semibold text-purple-600">- Mounika</p>
+              <p className="text-purple-500">MERN Stack Developer</p>
             </motion.div>
           </div>
         </motion.div>

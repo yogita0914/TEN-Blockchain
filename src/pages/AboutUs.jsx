@@ -4,7 +4,7 @@ import { motion } from "framer-motion";
 export function AboutUs() {
   return (
     <div className="min-h-screen bg-gradient-to-b from-gray-30 to-white">
-      <section className="relative py-16 bg-gradient-to-b from-blue-300 to-blue-200">
+      <section className="relative py-16 bg-gradient-to-b from-purple-300 to-purple-200">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
           <motion.div
             initial={{ opacity: 0, y: -20 }}
@@ -14,7 +14,7 @@ export function AboutUs() {
             <h1 className="text-4xl font-bold text-gray-900 mb-4">
               About Blockchain and Cryptocurrency
             </h1>
-            <p className="text-lg text-blue-700">
+            <p className="text-lg text-purple-700">
               Blockchain and cryptocurrency are transforming the way we think
               about money, data, and security. Blockchain is a decentralized
               ledger technology that ensures transparency, security, and trust
@@ -57,7 +57,7 @@ export function AboutUs() {
               <h2 className="text-3xl font-bold text-gray-900 mb-4">
                 What is Cryptocurrency?
               </h2>
-              <p className="text-lg text-blue-800 mb-6">
+              <p className="text-lg text-purple-800 mb-6">
                 Cryptocurrency is a type of digital or virtual currency that
                 uses cryptography for security. It operates on a decentralized
                 network, usually based on blockchain technology, allowing for
@@ -70,7 +70,7 @@ export function AboutUs() {
         </div>
       </section>
 
-      <section className="py-16 bg-gradient-to-r from-blue-100 to-blue-50">
+      <section className="py-16 bg-gradient-to-r from-purple-100 to-purple-50">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
           <motion.div
             initial={{ opacity: 0, y: 20 }}
@@ -109,9 +109,9 @@ export function AboutUs() {
               <motion.div
                 key={item.name}
                 whileHover={{ scale: 1.05 }}
-                className="bg-blue-100 rounded-lg p-6 text-center shadow-lg"
+                className="bg-purple-100 rounded-lg p-6 text-center shadow-lg"
               >
-                <h3 className="text-xl font-bold text-blue-800 mb-2">
+                <h3 className="text-xl font-bold text-purple-800 mb-2">
                   {item.name}
                 </h3>
                 <p className="text-gray-700">{item.description}</p>
@@ -121,7 +121,7 @@ export function AboutUs() {
         </div>
       </section>
 
-      <section className="py-16 bg-gradient-to-r from-blue-100 to-blue-30">
+      <section className="py-16 bg-gradient-to-r from-purple-100 to-purple-30">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
           <motion.div
             initial={{ opacity: 0, y: 20 }}
@@ -140,7 +140,7 @@ export function AboutUs() {
             <motion.button
               whileHover={{ scale: 1.05 }}
               whileTap={{ scale: 0.95 }}
-              className="bg-white text-blue-600 px-8 py-3 rounded-full font-semibold text-lg hover:bg-blue-200 transition-colors duration-300"
+              className="bg-white text-purple-600 px-8 py-3 rounded-full font-semibold text-lg hover:bg-purple-200 transition-colors duration-300"
             >
               <a href="/learn-more">Learn More</a>
             </motion.button>
